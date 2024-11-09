@@ -2,12 +2,14 @@
 :root{
     --white-color: #ffffff;
     --black-color: #020202;
-    --gray-color-900: #0F0F0F;
+    --gray-color-500: #00000020;
     --gray-color-800: #242424;
+    --gray-color-900: #0F0F0F;
     --primary-color-400: #1dd83c80;
     --primary-color-500: #1DD83C;
     --primary-color-600: #159D20;
     --secondary-color-100: #FEECE7;
+    --secondary-color-400: #fe553380;
     --secondary-color-500: #FE5433;
     --inter-font: "Inter", sans-serif;
     --opensans-font: "Open Sans", sans-serif
@@ -33,6 +35,7 @@
     padding: 0;
     outline: none;
     font-family: var(--inter-font);
+    overflow-x: hidden;
   }
   
   img, picture, video, canvas, svg {
