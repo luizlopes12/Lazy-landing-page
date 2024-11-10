@@ -13,17 +13,23 @@
 <body>
     <header class="navbar">
         <div class="navbar-container">
-          <a href="#" class="logo">
-            <img src="./assets/img/navbar-logo.png" alt="Logo Lazy" />
-          </a>
-          <nav class="nav-links">
-            <a href="#">Quem somos</a>
-            <a href="#">O que fazemos</a>
-            <a href="#">Projeto</a>
-            <a href="#">Nossa Equipe</a>
-          </nav>
+            <a href="#" class="logo">
+                <img src="./assets/img/navbar-logo.png" alt="Logo Lazy" />
+            </a>
+            <nav class="nav-links">
+                <a href="#about-section" onclick="mobileNavBar()">Quem somos</a>
+                <a href="#services-section" onclick="mobileNavBar()">O que fazemos</a>
+                <a href="#project-section" onclick="mobileNavBar()">Projeto</a>
+                <a href="#team-section" onclick="mobileNavBar()">Nossa Equipe</a>
+            </nav>
+            <div class="mobile-menu" onclick="mobileNavBar()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
-    </header>      
+    </header>
+    
     <section class="hero-section">
         <div class="hero-content">
             <figure class="hero-image-wrapper">
@@ -31,15 +37,15 @@
                 <i class="plus-icon -primary"></i>
                 <i class="plus-icon -primary"></i>
             </figure>
-          <div class="hero-text">
-            <h1>Melhorando a vida do <span>seu pet</span></h1>
-            <p>Desenvolvemos as soluções ideais para a saúde e bem estar do seu pet.</p>
-            <button class="cta-button">Saiba mais</button>
-          </div>
+            <div class="hero-text">
+                <h1>Melhorando a vida do <span>seu pet</span></h1>
+                <p>Desenvolvemos as soluções ideais para a saúde e bem estar do seu pet.</p>
+                <a href="#about-section" class="cta-button">Saiba mais</a>
+            </div>
         </div>
-      </section>   
-    
-    <section class="about-section">
+    </section>
+
+    <section id="about-section" class="about-section">
         <div class="about-container">
             <div class="about-box">
                 <h2>Quem somos</h2>
@@ -50,8 +56,8 @@
             </div>
         </div>
     </section>
-    
-    <section class="services-section">
+
+    <section id="services-section" class="services-section">
         <div class="services-container">
             <div class="services-heading">
                 <div class="services-box">
@@ -59,37 +65,37 @@
                 </div>
                 <div class="services-text">
                     <span>O que fazemos</span>
-                    <p>Nosso principal objetivo é simples: fazer o seu pet feliz através de estudos cientificos relacionados à bem-estar saúde animal, levando ele até a sua versão mais forte e saudável.</p>
+                    <p>Nosso principal objetivo é simples: fazer o seu pet feliz através de estudos científicos relacionados ao bem-estar e saúde animal, levando ele até a sua versão mais forte e saudável.</p>
                 </div>
             </div>
         </div>
         <div class="service-cards">
             <div class="service-card">
-                <img src="./assets/img/services-dog-1.png" alt="Imagem de cachorro">
-                <h4>Vida Ativa e Saudável</h4>
+                <img src="./assets/img/services-dog-2.png" alt="Imagem de cachorro">
+                <h4>Vida ativa e saudável</h4>
                 <p>Seu pet com uma qualidade de vida incrível.</p>
             </div>
             <div class="service-card">
                 <img src="./assets/img/services-dog-1.png" alt="Imagem de cachorro">
-                <h4>Cuidados Veterinários</h4>
+                <h4>Cuidados veterinários</h4>
                 <p>Auxiliamos no processo de identificar sintomas.</p>
             </div>
             <div class="service-card">
-                <img src="./assets/img/services-dog-1.png" alt="Imagem de cachorro">
-                <h4>Facilidade no pré-diagnóstico</h4>
+                <img src="./assets/img/services-dog-3.png" alt="Imagem de cachorro">
+                <h4>Acompanhe facilmente</h4>
                 <p>Tenha um histórico para acompanhar as doenças.</p>
             </div>
         </div>
-    </section> 
-    
-    <section class="project-section">
+    </section>
+
+    <section id="project-section" class="project-section">
         <i class="plus-icon -secondary -xxl"></i>
         <div class="project-wrapper">
             <div class="project-text-wrapper">
-            <div class="project-text">
-                <h1>O <span>melhor</span> para seu pet</h1>
-                <p>Deseja saber detalhes sobre a saúde do seu pet? <br> Red Bag é a solução para os seus problemas, com a utilização de alta tecnologia e uma inteligência artificial treinada para pontos específicos, seu pet estará em boas mãos!</p>
-            </div>
+                <div class="project-text">
+                    <h1>O <span>melhor</span> para seu pet</h1>
+                    <p>Deseja saber detalhes sobre a saúde do seu pet? <br> Red Bag é a solução para os seus problemas, com a utilização de alta tecnologia e uma inteligência artificial treinada para pontos específicos, seu pet estará em boas mãos!</p>
+                </div>
             </div>
             <div class="project-images">
                 <img src="./assets/img/project-images.png" alt="Imagens do projeto">
@@ -98,13 +104,89 @@
         <i class="plus-icon -secondary -sm"></i>
     </section>
 
-    <section class="team-section">
+    <section id="team-section" class="team-section">
         <div class="team-section-header">
             <h1>Nossa equipe</h1>
             <p>Conheça as pessoas que fazem projeto acontecer!</p>
         </div>
-        
+        <div class="team-members">
+            <div class="team-member">
+                <div class="team-card">
+                    <img src="./assets/img/luiz.png" alt="Luiz Lopes">
+                    <div class="team-card-wrapper">
+                        <p>Luiz Lopes</p>
+                        <div class="team-socials">
+                            <a href="https://www.linkedin.com/in/luizlopes12" target="_blank">
+                                <img src="./assets/img/linkdin.svg" alt="Linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <span class="team-card-text">
+                    UI/UX Designer
+                </span>
+            </div>
+
+            <div class="team-member">
+                <span class="team-card-text">
+                    Desenvolvedor Backend
+                </span>
+                <div class="team-card">
+                    <img src="./assets/img/meteus.png" alt="Matheus Ribeiro">
+                    <div class="team-card-wrapper">
+                        <p>Matheus Ribeiro</p>
+                        <div class="team-socials">
+                            <a href="https://www.linkedin.com/in/dev-mateus-ribeiro/" target="_blank">
+                                <img src="./assets/img/linkdin.svg" alt="Linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="team-card">
+                    <img src="./assets/img/gustavo.png" alt="Gustavo Eyros">
+                    <div class="team-card-wrapper">
+                        <p>Gustavo Eyros</p>
+                        <div class="team-socials">
+                            <a href="https://www.linkedin.com/in/gustavoeyros/" target="_blank">
+                                <img src="./assets/img/linkdin.svg" alt="Linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <span class="team-card-text">
+                    Pesquisador
+                </span>
+            </div>
+
+            <div class="team-member">
+                <span class="team-card-text">
+                    Desenvolvedor Mobile
+                </span>
+                <div class="team-card">
+                    <img src="./assets/img/rian.png" alt="Rian Yuri">
+                    <div class="team-card-wrapper">
+                        <p>Rian Yuri</p>
+                        <div class="team-socials">
+                            <a href="https://www.linkedin.com/in/rian-yuri-b36563158/" target="_blank">
+                                <img src="./assets/img/linkdin.svg" alt="Linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </section>
+
+    <footer class="footer-section">
+        <div class="footer-wrapper">
+            <img src="./assets/img/footer-logo.png" alt="Logo footer">
+            <span>Lazy Inc.</span>
+        </div>
+    </footer>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>
