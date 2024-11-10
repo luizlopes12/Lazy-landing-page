@@ -81,7 +81,6 @@
     top: -300px;
     background: var(--primary-color-400);
     filter: blur(200px);
-    overflow: hidden;
 }
 
 .hero-section::after {
@@ -851,5 +850,13 @@ html{
 
     .footer-wrapper{
         padding: 2rem;
+    }
+
+    .hero-section::before {
+        padding: 50px;
+        right: 0;
+        z-index: 0;
+        top: -80px;
+        filter: blur(30px);
     }
 }
