@@ -37,6 +37,12 @@
     font-family: var(--inter-font);
     overflow-x: hidden;
   }
+
+  main{
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+  }
   
   img, picture, video, canvas, svg {
     display: block;
