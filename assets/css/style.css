@@ -359,7 +359,7 @@
 .service-card {
     background-color: var(--gray-color-800);
     max-width: 200px;
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
     display: flex;
     flex-direction: column;
