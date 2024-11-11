@@ -707,7 +707,7 @@ html{
 }
 
 .mobile-menu.open .line3 {
-    transform: rotate(45deg) translate(-6px, -9px);
+    transform: rotate(45deg) translate(-7px, -9px);
     width: 75%;
 }
 
