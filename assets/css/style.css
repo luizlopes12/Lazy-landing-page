@@ -223,8 +223,17 @@
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
+}
+
+.cta-button.-secondary{
+    background-color: var(--secondary-color-500);
+}
+
+.cta-button.-secondary:hover{
+    background-color: var(--secondary-color-500);
+    filter: brightness(.95);
 }
 
 .cta-button:hover {
